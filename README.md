@@ -2,7 +2,7 @@
 
 **Freshness-aware wireless sensor scheduling (Age of Information)**
 
-Group project, Autumn 2026/27. Deadline: **20 Nov 2026, 23:59 Dublin time**.
+Group project, Autumn 2026/27.
 Submission: one report per group, max 15 pages single column (8 double),
 appendices excluded. AI-use disclosure statement mandatory.
 
@@ -10,12 +10,11 @@ appendices excluded. AI-use disclosure statement mandatory.
 
 | Path | What it is |
 |---|---|
-| `Topic09_Group_Report.docx` | The submitted report (11 pages) |
 | `code/aoi_sim.py` | Time-slotted simulator + experiments E1/E2 + verification |
 | `code/make_figures.py` | All figures and equation images |
 | `code/make_report.py` | Builds the .docx; injects numbers from `results/` |
 | `code/random_order_check.py` | Sensitivity check behind Section 6.2 (intra-slot ordering) |
-| `results/` | Raw per-run data (`main_results.json`, `runs.jsonl`), summaries (`summary_e1.csv`, `summary_e2.csv`), `verification.json`, `run_log.txt`, `random_order_check.txt` |
+| `results/` | Raw per-run data (`main_results.json`, `runs.jsonl`), summaries (`summary_e1.csv`, `summary_e2.csv`), `verification.json`, `run_log.txt`, `run_log.txt` |
 | `figures/` | All PNGs used by the report |
 
 ## Reproduce everything
